@@ -1,2 +1,64 @@
-<a href="http://kubsu.ru/">КубГУ</a>
-<a href="http://kubsu.ru/"><img scr="image.jpg">картинка</a>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1>форма</h1>
+    <a href="https://www.kubsu.ru/">абсолютная гиперссылка</a><br>
+    <a href="https://www.kubsu.ru/"><img src="image.jpg" alt="Цветок" style="width: 600px;" /></a><br> 
+    <a href="https://university">who</a><br>
+    <label>
+          <input name="field-name-1"
+          value="ФИО" />
+      </label><br>
+      <label>
+        Телефон:<br />
+        <input name="field-tel"
+          type="tel"
+          placeholder="Введите ваш номер" />
+      </label><br />
+      <label>
+        E-mail:<br />
+        <input name="field-email"
+          type="email"
+          placeholder="Введите вашу почту" />
+      </label><br />
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2019-08-13"
+          type="date" />
+      </label><br />
+      Пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="Значение1" />
+        Жен</label>
+      <label><input type="radio"
+        name="radio-group-1" value="Значение2" />
+        Муж</label><br />
+
+      Чекбокс:<br />
+      <label>
+        Любимый язык программирования:
+        <br />
+        <select name="field-name-12[]"
+          multiple="multiple">
+          <option value="Значение1">Pascal</option>
+          <option value="Значение2" selected="selected">C</option>
+          <option value="Значение3" selected="selected">C++</option>
+          <option value="Значение4">JavaScript</option>
+          <option value="Значение5">PHP</option>
+          <option value="Значение6">Python</option>
+          <option value="Значение7">Java</option>
+          <option value="Значение8">Haskel</option>
+          <option value="Значение9">Clojure</option>
+          <option value="Значение10">Prolog</option>
+          <option value="Значение11">Scala</option>
+        </select>
+      </label><br />
+</body>
+</html>
