@@ -1,0 +1,37 @@
+
+/* .container{
+     width: 960px;
+     margin: 0 auto;
+ }
+ */
+ .block-1{
+    background: rgb(235, 220, 192);
+ }
+ nav ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    
+ }
+
+ .main-navigation a{
+    color: #626262;
+    font-size: 14px;
+    padding-right: 20px;
+ }
+ #table tbody tr:nth-child(odd){
+	background: #640b1b;
+}
+ 
+#table tbody tr:nth-child(even){
+	background: #180338;
+}
+ .futer{
+    background-color: rgb(62, 45, 1);
+    color: aliceblue;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+ }
