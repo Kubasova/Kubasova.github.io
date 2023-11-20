@@ -138,7 +138,7 @@
         <section class="form-section">
             <div class="container">
                 <form id="id_form" action="/" method="POST" class="block">
-                    <h2 class="block_title">Форма</h2>
+                    <h2 class="block_title" style="background: burlywood;">Форма</h2>
                         <label>
                             <input class="form_item" type="text" name="fio" placeholder="Введите ФИО" required pattern="^[А-Яа-яЁё\s]+$">
                         </label>
@@ -170,8 +170,7 @@
                         </p>
                         <br>
                         <label class="form_text">
-                            Выберете свои любимые языки:
-                            <br>
+                            Любимый язык программирования:
                             <br>
                             <select name="favorite_language" multiple required>
                                 <option value="Pascal">Pascal</option>
@@ -188,11 +187,11 @@
                             </select>
                         </label>
                         <br>
-                        <textarea name="biography" required>Расскажите немного о себе</textarea>
+                        <textarea name="biography" required>Биография</textarea>
                         <br>
                         <label class="agreement">
                             <input type="checkbox" name="agreement" required>
-                            С контрактом ознакомлен (а)
+                            С контрактом ознакомлен(а)
                         </label>
                         <br>
                         <input class="form_item button" type="submit" id="Unique_Id" value="Отправить">
