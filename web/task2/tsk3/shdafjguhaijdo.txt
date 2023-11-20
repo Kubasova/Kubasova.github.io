@@ -1,0 +1,68 @@
+<ul class="flex-box-order__list" id="id_ul">
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="http://www.kubsu.ru/index.php">Основной сайт КубГУ</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://www.kubsu.ru/index.php">Основной сайт КубГУ в протоколе https</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://ru.wikipedia.org/wiki/Портал:Ботаника/Избранное_изображение/Архив/Октябрь_2008—ноябрь_2009">
+                            <img src="images/image.jpg" width="100" alt="Цветочек">
+                        </a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="/inner.html">Сокращенная ссылка на внутреннюю страницу</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="/index.html">Сокращенная ссылка на главную страницу</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="#Unique_Id">Ссылка на кнопку внизу</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://www.youtube.com/watch?v=xm3YgoEiEDc&t=400s&ab_channel=10Hours&t=10000">Ссылка с тремя параметрами в URL</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://ru.wikipedia.org/wiki/Бэтмен#toc">Ссылка с параметром id в URL</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="inner.html">Относительная ссылка на страницу в текущем каталоге</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="about/about_inner.html">Относительная ссылка на страницу в каталоге about</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <p>Кто мог знать, что <a class="flex-box-order__list-link" href="https://www.zoopark-rostov.ru/index.php/novosti-i-sobytiya/667-5-interesnykh-faktov-o-kapibarakh">капибары</a> завоюют такую любовь общественности?</p>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="https://stackoverflow.com/questions/396145/how-can-i-vertically-center-a-div-element-for-all-browsers-using-css#answers-header">Ссылка на фрагмент страницы стороннего сайта</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <p>
+                            Слева прямоугольник, справа круг, голосуй сейчас мой друг!
+                        </p>
+                        <img src="images/image2.jpg" alt="Бэтмен против Супермена" usemap="#Picture" width="300">
+                        <map name="Picture">
+                            <area shape="rect" coords="0,0,100,150" href="https://ru.wikipedia.org/wiki/Бэтмен" title="За Бэта!" alt="Бэтмен">
+                            <area shape="circle" coords="230,80,50" href="https://ru.wikipedia.org/wiki/Супермен" title="Я супер как и он!" alt="Супермен">
+                        </map>
+                    </li>
+                        
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="/">Ссылка с пустым href</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link">Ссылка без href</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="inner.html" rel="nofollow">Ссылка, по которой запрещен переход поисковикам</a>
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <!--noindex-->
+                            <a class="flex-box-order__list-link" href="inner.html">Текст этой ссылки запрещен для индексации поисковиками</a>
+                        <!--/noindex-->
+                    </li>
+                    <li class="flex-box-order__list-item">
+                        <a class="flex-box-order__list-link" href="">Ссылка на файл на сервере ftp с авторизацией</a>
+                    </li>
+                </ul>
