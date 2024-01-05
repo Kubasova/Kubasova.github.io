@@ -77,6 +77,13 @@ function updatePrice() {
         updatePrice();
       });
     });
+
+    const options = document.getElementsByName('options');
+    for (let i = 0; i < options.length; i++) {
+        options[i].addEventListener('change', function() {
+          console.log(this.value);
+        });
+      }
     
     let checkboxes = document.querySelectorAll("#checkboxes input");
     checkboxes.forEach(function(checkbox) {
