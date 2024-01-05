@@ -5,24 +5,53 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <script src="calculator.js"></script>
+        <script src="input.js"></script>
+        <script src="scrip.js"></script>
         <title>Калькулятор товаров</title>
     </head>
     <body>
-        <div class="center">
-            <input class="js-input-a" type="number">
-            <select class="js-select-operation">
-                <option value="a">яблоки</option>
-                <option value="b">бананы</option>
-                <option value="o">мандарины</option>
-                <option value="k">киви</option>
-            </select>
-        <button class="js-btn-result">Результат</button>
-        <p class="js-output"></p>
-
-        </div>
-
-        <script src="math.js"></script>
-        <script src="calculator.js"></script>
-        <script src="input.js"></script>
+        <div style="width: 80%; margin: 0 auto;"><img src="sber.png" style="width: 60px;" alt="plati.ru"></div>
+        <table style="width: 80%; margin: 0 auto; background-color: #c5c287; border-collapse: collapse;">
+            <tr>
+              <td style="width: 50%; padding: 10px;">
+                <input class="js-input-a" type="number">
+                <select class="js-select-operation">
+                    <option value="a">яблоки</option>
+                    <option value="b">бананы</option>
+                    <option value="o">мандарины</option>
+                    <option value="k">киви</option>
+                </select>
+                <button class="js-btn-result">Результат</button>
+                <p class="js-output"></p>
+                </div>
+              </td>
+              <td style="width: 50%; padding: 10px;">
+                <form>
+                    <div>
+                      <input type="radio">карта, 
+                      <input type="radio">б/нал
+                      <input type="radio">наличные
+                    </div><br>
+                    <select name="prodType">
+                      <option value="1">камень</option>
+                      <option value="2">Яблоки</option>
+                      <option value="3">Ламинат</option>
+                    </select>
+                    <div id="radios">
+                      <label><input type="radio" name="prodOptions" value="option1"> Красные</label>
+                      <label><input type="radio" name="prodOptions" value="option2"> Жабо</label>
+                      <label><input type="radio" name="prodOptions" value="option3"> Вронские</label>
+                    </div>
+                    <div id="checkboxes">
+                      <label><input type="checkbox" name="prop1"> Виниловый</label>
+                      <label><input type="checkbox" name="prop2"> Плитка</label>
+                    </div> 
+                    <br><br>
+                    <div id="prodPrice"></div>
+                  </form>
+              </td>
+            </tr>
+          </table>
     </body>
     </html>
